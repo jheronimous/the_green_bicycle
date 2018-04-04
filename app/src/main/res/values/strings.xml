@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">The Green Bicycle</string>
+    <!--Text for True/False questions. This is the "true" value.-->
+    <string name="trueAnswer">True</string>
+    <!--Text for True/False questions. This is the "false" value.-->
+    <string name="falseAnswer">False</string>
+    <!--Text for numbering questions. This is the "Question 1" value.-->
+    <string name="Question1">Question #1</string>
+    <!--Text for numbering questions. This is the "Question 2" value.-->
+    <string name="Question2">Question #2</string>
+    <!--Text for numbering questions. This is the "Question 3" value.-->
+    <string name="Question3">Question #3</string>
+    <!--Text for numbering questions. This is the "Question 4" value.-->
+    <string name="Question4">Question #4</string>
+    <!--Text for numbering questions. This is the "Question 5" value.-->
+    <string name="Question5">Question #5</string>
+    <!--Text for numbering questions. This is the "Question 6" value.-->
+    <string name="Question6">Question #6</string>
+    <!--Text for actual questions. This is the "Question 1" value.-->
+    <string name="Question1Text">Google was named after the famous Russian Absurdist playwright, Nikolai Gogol.</string>
+    <!--Text for actual questions. This is the "Question 2" value.-->
+    <string name="Question2Text">Eugene Ionesco wrote a play, in which all but the main character, Bérenger, turn into what animal?</string>
+    <!--Text for actual questions. This is the "Question 3" value.-->
+    <string name="Question3Text">Georges Perec\'s lipogrammatic book follows a group of protagonists looking for a missing pal. What is missing? </string>
+    <!--Text for actual questions. This is the "Question 4" value.-->
+    <string name="Question4Text">In Kafka\'s Die Verwandlung, the protagonist, Gregor Samsa, changes into what? </string>
+    <!--Text for actual questions. This is the "Question 5" value.-->
+    <string name="Question5Text">Kurt Vonnegut said which of the following quotes?</string>
+    <!--Text for actual questions. This is the "Question 6" value.-->
+    <string name="Question6Text">Ubu Roi is a parody of Macbeth.</string>
+    <!--Text for actual questions. This is the "Question 7" value.-->
+    <string name="Question7Text">Texty-text-text-text</string>
+    <!--Text for checkboxes. This is the "Question 2" value for the first checkbox.-->
+    <string name="Question2FirstCheckbox">Crawfish</string>
+    <!--Text for checkboxes. This is the "Question 2" value for the second checkbox.-->
+    <string name="Question2SecondCheckbox">Rhinoceros</string>
+    <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
+    <string name="Question2ThirdCheckbox">Wolves</string>
+    <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
+    <string name="Question2FourthCheckbox">Mantis Shrimp</string>
+    <!--Text for checkboxes. This is the "Question 4" value for the first checkbox.-->
+    <string name="Question4FirstCheckbox">A more comfortable pair of pants</string>
+    <!--Text for checkboxes. This is the "Question 4" value for the second checkbox.-->
+    <string name="Question4SecondCheckbox">A less comfortable pair of pants</string>
+    <!--Text for checkboxes. This is the "Question 4" value for the third checkbox.-->
+    <string name="Question4ThirdCheckbox">A giant cockroach</string>
+    <!--Text for checkboxes. This is the "Question 4" value for the third checkbox.-->
+    <string name="Question4FourthCheckbox">Ein ungeheures Ungeziefer</string>
+    <!--Text for editText hints. This is the value for any editText hint.-->
+    <string name="editTextHint">Enter your answer here.</string>
+    <!--Text for answers for question 5. This is the "answer 1" value.-->
+    <string name="question5Answer1">"Should I kill myself, or have a cup of coffee?"</string>
+    <!--Text for answers for question 5. This is the "answer 2" value.-->
+    <string name="Question5Answer2">"Ever tried. Ever failed. No Matter. Try again. Fail again. Fail better."</string>
+    <!--Text for answers for question 5. This is the "answer 3" value.-->
+    <string name="Question5Answer3">"True terror is to wake up one morning and discover that your high school class is running the country."</string>
+    <!--Text for answers for question 5. This is the "answer 4" value.-->
+    <string name="Question5Answer4">“It is one of the great joys of home ownership to fire a pistol in one\'s own bedroom.”</string>
+</resources>

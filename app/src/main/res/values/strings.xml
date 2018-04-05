@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">The Green Bicycle</string>
+    <!--Text for the quiz's introduction.-->
+    <string name="Introduction">Welcome to the Absurdist Literature Quiz.</string>
     <!--Text for True/False questions. This is the "true" value.-->
     <string name="trueAnswer">True</string>
     <!--Text for True/False questions. This is the "false" value.-->
@@ -31,13 +33,13 @@
     <!--Text for actual questions. This is the "Question 7" value.-->
     <string name="Question7Text">Texty-text-text-text</string>
     <!--Text for checkboxes. This is the "Question 2" value for the first checkbox.-->
-    <string name="Question2FirstCheckbox">Crawfish</string>
+    <string name="Question2FirstRadioButton">Crawfish</string>
     <!--Text for checkboxes. This is the "Question 2" value for the second checkbox.-->
-    <string name="Question2SecondCheckbox">Rhinoceros</string>
+    <string name="Question2SecondRadioButton">Rhinoceros</string>
     <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
-    <string name="Question2ThirdCheckbox">Wolves</string>
+    <string name="Question2ThirdRadioButton">Wolves</string>
     <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
-    <string name="Question2FourthCheckbox">Mantis Shrimp</string>
+    <string name="Question2FourthRadioButton">Mantis Shrimp</string>
     <!--Text for checkboxes. This is the "Question 4" value for the first checkbox.-->
     <string name="Question4FirstCheckbox">A more comfortable pair of pants</string>
     <!--Text for checkboxes. This is the "Question 4" value for the second checkbox.-->
@@ -56,4 +58,6 @@
     <string name="Question5Answer3">"True terror is to wake up one morning and discover that your high school class is running the country."</string>
     <!--Text for answers for question 5. This is the "answer 4" value.-->
     <string name="Question5Answer4">“It is one of the great joys of home ownership to fire a pistol in one\'s own bedroom.”</string>
+    <!--Text for answer submission guidance.-->
+    <string name="ClickBeckett">Click Beckett\'s head to submit your answers.</string>
 </resources>

@@ -1,24 +1,66 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#9E9E9E</item>
-        <item name="colorPrimaryDark">#616161</item>
-        <item name="colorAccent">#FF5722</item>
-        <item name="colorText">#212121</item>
-        <item name="colorPrimaryLight">#F5F5F5</item>
-        <item name="colorSecondaryText">#757575</item>
-        <item name="colorDivider">#BDBDBD</item>
     </style>
 
-    <style name="quesstionNumberStyle">
+    <style name="questionNumberStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">16sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
         <item name="android:layout_marginTop">16sp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF5722</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="questionText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16sp</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#252424</item>
+    </style>
+
+    <style name="radioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:textColor">#353434</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="checkBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#353434</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="linearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="VerticalSeperator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
     </style>
 
 </resources>

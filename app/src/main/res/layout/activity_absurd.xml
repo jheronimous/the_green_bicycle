@@ -27,18 +27,23 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question1Text" />
+            <RadioGroup
+                android:id="@+id/radioGogol"
+                style="@style/radioGroup">
 
             <RadioButton
                 android:id="@+id/question1_true"
                 style="@style/radioButton"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="question1TrueClicked"
                 android:text="@string/trueAnswer" />
 
             <RadioButton
                 android:id="@+id/question1_false"
                 style="@style/radioButton"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="question1FalseClicked"
                 android:text="@string/falseAnswer" />
+            </RadioGroup>
+
         </LinearLayout>
 
         <View style="@style/VerticalSeperator" />
@@ -55,8 +60,7 @@
 
             <RadioGroup
                 android:id="@+id/radioIonesco"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                style="@style/radioGroup">
 
                 <RadioButton
                     android:id="@+id/question2_first_radio_button"
@@ -146,7 +150,9 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question5Text" />
-
+            <RadioGroup
+                android:id="@+id/radioVonnegut"
+                style="@style/radioGroup">
             <RadioButton
                 android:id="@+id/question5_answer1"
                 style="@style/radioButton"
@@ -170,6 +176,7 @@
                 style="@style/radioButton"
                 android:onClick="onRadioButtonClicked"
                 android:text="@string/Question5Answer4" />
+            </RadioGroup>
         </LinearLayout>
 
         <View style="@style/VerticalSeperator" />
@@ -183,7 +190,9 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question6Text" />
-
+            <RadioGroup
+                android:id="@+id/radioUbu"
+                style="@style/radioGroup">
             <RadioButton
                 android:id="@+id/question6_true"
                 style="@style/radioButton"
@@ -195,6 +204,7 @@
                 style="@style/radioButton"
                 android:onClick="onRadioButtonClicked"
                 android:text="@string/falseAnswer" />
+            </RadioGroup>
         </LinearLayout>
 
         <View style="@style/VerticalSeperator" />

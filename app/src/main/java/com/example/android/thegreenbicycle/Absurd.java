@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
+
 /**
  * This app displays a final score, based on completed, correct answers.
  */
@@ -84,14 +85,13 @@ public class Absurd extends AppCompatActivity {
                 scoreTotal++;
             }
 
-
-            //A toast is displayed at the bottom of the screen to let the user know how many answers were correct
-            Toast toast = Toast.makeText(this, "You got " + scoreTotal + " out of 6, Congratulations!", Toast.LENGTH_LONG);
-            toast.show();
-            scoreTotal = 0;
         }
-
+        //A toast is displayed at the bottom of the screen to let the user know how many answers were correct
+        Toast toast = Toast.makeText(this, "You got " + scoreTotal + " out of 6, Congratulations!", Toast.LENGTH_LONG);
+        toast.show();
+        scoreTotal = 0;
     }
+
     //Resetting the selections in the quiz when the Reset button is clicked
     public void resetButton(View view) {
         RadioGroup question1RadioGroup = findViewById(R.id.radioGogol);

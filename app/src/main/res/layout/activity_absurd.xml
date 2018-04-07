@@ -3,20 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:paddingLeft="6dp"
-        android:paddingRight="6dp">
+    <LinearLayout style="@style/topLevel">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Introduction"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
-            android:textSize="25sp" />
+            style="@style/titleStyle"
+            android:text="@string/Introduction" />
 
         <LinearLayout style="@style/linearLayout">
 
@@ -27,21 +18,20 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question1Text" />
+
             <RadioGroup
                 android:id="@+id/radioGogol"
                 style="@style/radioGroup">
 
-            <RadioButton
-                android:id="@+id/question1_true"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/trueAnswer" />
+                <RadioButton
+                    android:id="@+id/question1_true"
+                    style="@style/radioButton"
+                    android:text="@string/trueAnswer" />
 
-            <RadioButton
-                android:id="@+id/question1_false"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/falseAnswer" />
+                <RadioButton
+                    android:id="@+id/question1_false"
+                    style="@style/radioButton"
+                    android:text="@string/falseAnswer" />
             </RadioGroup>
 
         </LinearLayout>
@@ -49,6 +39,7 @@
         <View style="@style/VerticalSeperator" />
 
         <LinearLayout style="@style/linearLayout">
+
             <TextView
                 style="@style/questionNumberStyle"
                 android:text="@string/Question2" />
@@ -62,27 +53,23 @@
                 style="@style/radioGroup">
 
                 <RadioButton
-                    android:id="@+id/question2_first_radio_button"
+                    android:id="@+id/question2_crawfish"
                     style="@style/radioButton"
-                    android:onClick="submitButton"
                     android:text="@string/Question2FirstRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_second_radio_button"
+                    android:id="@+id/question2_rhinoceroses"
                     style="@style/radioButton"
-                    android:onClick="submitButton"
                     android:text="@string/Question2SecondRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_third_radio_button"
+                    android:id="@+id/question2_wolves"
                     style="@style/radioButton"
-                    android:onClick="submitButton"
                     android:text="@string/Question2ThirdRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_fourth_radio_button"
+                    android:id="@+id/question2_mantis_shrimp"
                     style="@style/radioButton"
-                    android:onClick="submitButton"
                     android:text="@string/Question2FourthRadioButton" />
             </RadioGroup>
 
@@ -102,12 +89,9 @@
 
             <EditText
                 android:id="@+id/question3_answer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                style="@style/editText"
                 android:hint="@string/editTextHint"
-                android:inputType="textCapWords"
-                android:onClick="submitButton"
-                android:padding="6sp" />
+                android:onClick="submitButton" />
         </LinearLayout>
 
         <View style="@style/VerticalSeperator" />
@@ -123,27 +107,23 @@
                 android:text="@string/Question4Text" />
 
             <CheckBox
-                android:id="@+id/question4_first_checkbox"
+                android:id="@+id/question4_comfortable_pants"
                 style="@style/checkBox"
-                android:onClick="submitButton"
                 android:text="@string/Question4FirstCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_second_checkbox"
+                android:id="@+id/question4_uncomfortable_pants"
                 style="@style/checkBox"
-                android:onClick="submitButton"
                 android:text="@string/Question4SecondCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_third_checkbox"
+                android:id="@+id/question4_cockroach"
                 style="@style/checkBox"
-                android:onClick="submitButton"
                 android:text="@string/Question4ThirdCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_fourth_checkbox"
+                android:id="@+id/question4_ungeziefer"
                 style="@style/checkBox"
-                android:onClick="submitButton"
                 android:text="@string/Question4FourthCheckbox" />
         </LinearLayout>
 
@@ -158,32 +138,30 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question5Text" />
+
             <RadioGroup
                 android:id="@+id/radioVonnegut"
                 style="@style/radioGroup">
-            <RadioButton
-                android:id="@+id/question5_answer1"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/question5Answer1" />
 
-            <RadioButton
-                android:id="@+id/question5_answer2"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/Question5Answer2" />
+                <RadioButton
+                    android:id="@+id/question5_answer1"
+                    style="@style/radioButton"
+                    android:text="@string/question5Answer1" />
 
-            <RadioButton
-                android:id="@+id/question5_answer3"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/Question5Answer3" />
+                <RadioButton
+                    android:id="@+id/question5_answer2"
+                    style="@style/radioButton"
+                    android:text="@string/Question5Answer2" />
 
-            <RadioButton
-                android:id="@+id/question5_answer4"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/Question5Answer4" />
+                <RadioButton
+                    android:id="@+id/question5_answer3"
+                    style="@style/radioButton"
+                    android:text="@string/Question5Answer3" />
+
+                <RadioButton
+                    android:id="@+id/question5_answer4"
+                    style="@style/radioButton"
+                    android:text="@string/Question5Answer4" />
             </RadioGroup>
         </LinearLayout>
 
@@ -198,20 +176,20 @@
             <TextView
                 style="@style/questionText"
                 android:text="@string/Question6Text" />
+
             <RadioGroup
                 android:id="@+id/radioUbu"
                 style="@style/radioGroup">
-            <RadioButton
-                android:id="@+id/question6_true"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/trueAnswer" />
 
-            <RadioButton
-                android:id="@+id/question6_false"
-                style="@style/radioButton"
-                android:onClick="submitButton"
-                android:text="@string/falseAnswer" />
+                <RadioButton
+                    android:id="@+id/question6_true"
+                    style="@style/radioButton"
+                    android:text="@string/trueAnswer" />
+
+                <RadioButton
+                    android:id="@+id/question6_false"
+                    style="@style/radioButton"
+                    android:text="@string/falseAnswer" />
             </RadioGroup>
         </LinearLayout>
 
@@ -220,21 +198,14 @@
         <LinearLayout style="@style/linearLayout">
 
             <TextView
-                style="@style/questionNumberStyle"
+                style="@style/titleStyle"
                 android:layout_gravity="center"
                 android:text="@string/ClickBeckett"
                 android:textAlignment="center" />
 
             <ImageButton
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:layout_alignParentBottom="true"
-                android:layout_gravity="center"
-                android:layout_marginBottom="6dp"
-                android:layout_marginTop="6dp"
-                android:background="@null"
-                android:onClick="getScore"
-                android:scaleType="fitCenter"
+                style="@style/beckettHead"
+                android:onClick="clickBeckett"
                 android:src="@drawable/beckett" />
         </LinearLayout>
     </LinearLayout>

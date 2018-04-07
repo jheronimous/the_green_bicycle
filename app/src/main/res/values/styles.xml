@@ -11,9 +11,9 @@
         <item name="android:layout_marginBottom">10sp</item>
         <item name="android:layout_marginTop">16sp</item>
         <item name="android:textAllCaps">true</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">#FF5722</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/bungee_shade</item>
     </style>
 
     <style name="questionText">
@@ -24,6 +24,8 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#252424</item>
+        <item name="android:fontFamily">@font/baumans</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="radioButton">
@@ -32,6 +34,8 @@
         <item name="android:padding">6sp</item>
         <item name="android:textColor">#353434</item>
         <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/baumans</item>
+        <item name="android:onClick">submitButton</item>
     </style>
 
     <style name="checkBox">
@@ -40,7 +44,8 @@
         <item name="android:padding">6sp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#353434</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/baumans</item>
+        <item name="android:onClick">submitButton</item>
     </style>
 
     <style name="linearLayout">
@@ -66,6 +71,42 @@
     <style name="radioGroup">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="beckettHead">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/fjord_one</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:padding">6sp</item>
+    </style>
+
+    <style name="topLevel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
     </style>
 
 </resources>

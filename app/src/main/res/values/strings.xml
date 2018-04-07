@@ -35,7 +35,7 @@
     <!--Text for checkboxes. This is the "Question 2" value for the first checkbox.-->
     <string name="Question2FirstRadioButton">Crawfish</string>
     <!--Text for checkboxes. This is the "Question 2" value for the second checkbox.-->
-    <string name="Question2SecondRadioButton">Rhinoceros</string>
+    <string name="Question2SecondRadioButton">Rhinoceroses</string>
     <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
     <string name="Question2ThirdRadioButton">Wolves</string>
     <!--Text for checkboxes. This is the "Question 2" value for the third checkbox.-->
@@ -51,13 +51,13 @@
     <!--Text for editText hints. This is the value for any editText hint.-->
     <string name="editTextHint">Enter your answer here.</string>
     <!--Text for answers for question 5. This is the "answer 1" value.-->
-    <string name="question5Answer1">"Should I kill myself, or have a cup of coffee?"</string>
+    <string name="question5Answer1">Should I kill myself, or have a cup of coffee?</string>
     <!--Text for answers for question 5. This is the "answer 2" value.-->
-    <string name="Question5Answer2">"Ever tried. Ever failed. No Matter. Try again. Fail again. Fail better."</string>
+    <string name="Question5Answer2">Ever tried. Ever failed. No Matter. Try again. Fail again. Fail better.</string>
     <!--Text for answers for question 5. This is the "answer 3" value.-->
-    <string name="Question5Answer3">"True terror is to wake up one morning and discover that your high school class is running the country."</string>
+    <string name="Question5Answer3">True terror is to wake up one morning and discover that your high school class is running the country.</string>
     <!--Text for answers for question 5. This is the "answer 4" value.-->
-    <string name="Question5Answer4">“It is one of the great joys of home ownership to fire a pistol in one\'s own bedroom.”</string>
+    <string name="Question5Answer4">It is one of the great joys of home ownership to fire a pistol in one\'s own bedroom.</string>
     <!--Text for answer submission guidance.-->
     <string name="ClickBeckett">Click Beckett\'s head to submit your answers.</string>
 </resources>

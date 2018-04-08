@@ -27,7 +27,7 @@ public class Absurd extends AppCompatActivity {
 /**
     What happens when the user clicks on buttons throughout the quiz.
  */
-    public void submitButton(View view) {
+    public void submitButton1(View view) {
 
         //Checking the correct answer is marked for question #1. If so, add 1 to score total.
         RadioButton Question1RadioButton = findViewById(R.id.question1_false);
@@ -36,36 +36,45 @@ public class Absurd extends AppCompatActivity {
         if (question1Answer) {
             scoreTotal = scoreTotal + 1;
         }
-
+    }
+    public void submitButton2(View view){
         //Checking the correct answer is marked for question #2. If so, add 1 to score total.
         RadioButton question2SecondRadioButton = findViewById(R.id.question2_rhinoceroses);
         boolean question2Answer = question2SecondRadioButton.isChecked();
 
         if (question2Answer) {
             scoreTotal = scoreTotal + 1;
-        }
-
+    }
+    }
+    public void submitButton3(View view){
         //Checking the correct answer is marked for question #3. If so, add 1 to score total.
         EditText editTextQuestion3 = findViewById(R.id.question3_answer);
         if (editTextQuestion3.getText().toString().equals("e")) {
             scoreTotal = scoreTotal + 1;
         }
+    }
+    public void submitButton5(View view){
         //Checking the correct answer is marked for question #5. If so, add 1 to score total.
         RadioButton radioButtonQuestion5 = findViewById(R.id.question5_answer3);
         boolean question5Answer = radioButtonQuestion5.isChecked();
 
         if (question5Answer) {
             scoreTotal = scoreTotal + 1;
-        }
 
+        }
+    }
+    public void submitButton6(View view){
         //Checking the correct answer is marked for question #6. If so, add 1 to score total.
         RadioButton radioButtonQuestion6 = findViewById(R.id.question6_true);
         boolean question6Answer = radioButtonQuestion6.isChecked();
 
         if (question6Answer) {
             scoreTotal = scoreTotal + 1;
-        }
 
+
+        }
+    }
+    public void submitButton4(View view){
         //Checking the correct answer is marked for question #4. If so, add 1 to score total.
         CheckBox Question4FirstCheckBox = findViewById(R.id.question4_comfortable_pants);
         boolean question4_first_checkbox = Question4FirstCheckBox.isChecked();
@@ -73,8 +82,8 @@ public class Absurd extends AppCompatActivity {
         CheckBox Question4SecondCheckBox = findViewById(R.id.question4_uncomfortable_pants);
         boolean question4_second_checkbox = Question4SecondCheckBox.isChecked();
 
-        CheckBox Quetion4ThirdCheckBox = findViewById(R.id.question4_cockroach);
-        boolean question4_third_checkbox = Quetion4ThirdCheckBox.isChecked();
+        CheckBox Question4ThirdCheckBox = findViewById(R.id.question4_cockroach);
+        boolean question4_third_checkbox = Question4ThirdCheckBox.isChecked();
 
         CheckBox Question4FourthCheckBox = findViewById(R.id.question4_ungeziefer);
         boolean question4_fourth_checkbox = Question4FourthCheckBox.isChecked();
@@ -86,9 +95,9 @@ public class Absurd extends AppCompatActivity {
             if (question4_first_checkbox || question4_second_checkbox) {
                 scoreTotal = scoreTotal - 1;
 
+
             }
         }
-
     }
 
     /**

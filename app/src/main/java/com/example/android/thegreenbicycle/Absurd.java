@@ -49,7 +49,8 @@ public class Absurd extends AppCompatActivity {
     public void submitButton3(View view){
         //Checking the correct answer is marked for question #3. If so, add 1 to score total.
         EditText editTextQuestion3 = findViewById(R.id.question3_answer);
-        if (editTextQuestion3.getText().toString().equals("e")) {
+
+        if (editTextQuestion3.getText().toString().equalsIgnoreCase("e")) {
             scoreTotal = scoreTotal + 1;
         }
     }
@@ -105,7 +106,7 @@ public class Absurd extends AppCompatActivity {
      */
     public void clickBeckett(View view) {
         //A toast is displayed at the bottom of the screen to let the user know how many answers were correct
-        Toast toast = Toast.makeText(this, "You got " + scoreTotal + " out of 6, Congratulations!", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(this, getString(R.string.youGot) + scoreTotal + getString(R.string.scoreWording), Toast.LENGTH_LONG);
         toast.show();
 
         //Resetting the selections in the quiz when the Reset button is clicked

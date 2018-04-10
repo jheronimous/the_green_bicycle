@@ -46,13 +46,31 @@ public class Absurd extends AppCompatActivity {
             scoreTotal = scoreTotal + 1;
     }
     }
-    public void submitButton3(View view){
-        //Checking the correct answer is marked for question #3. If so, add 1 to score total.
-        EditText editTextQuestion3 = (EditText) findViewById(R.id.question3_answer);
+   public void submitButton3(View view){
 
-        if (editTextQuestion3.getText().toString().equalsIgnoreCase("e")) {
-            scoreTotal = scoreTotal + 1;
-        }
+       editTextQuestion3 = findViewById(R.id.question3_answer);
+       String theLetterE = editTextQuestion3.getText().toString();
+       if (theLetterE.equalsIgnoreCase(getString(R.string.theLetterE))) {
+           scoreTotal = scoreTotal + 1;
+       }
+
+
+        //Checking the correct answer is marked for question #3. If so, add 1 to score total.
+        //EditText editTextQuestion3 = findViewById(R.id.question3_answer);
+        //String answerQ3 = editTextQuestion3.getText().toString();
+        //if (answerQ3.equalsIgnoreCase("e")) {
+      //      scoreTotal = scoreTotal + 1;
+       // }
+    //public void submitButton3(View view) {
+        //Checking the correct answer is marked for question #3. If so, add 1 to score total.
+        //EditText nameField = (EditText) findViewById(R.id.question3_answer);
+        //String name = nameField.getText().toString();
+       // Toast toast = Toast.makeText(this, getString(R.string.youGot) + scoreTotal + getString(R.string.scoreWording), Toast.LENGTH_LONG);
+        //toast.show();
+       // if (name.equals("e")) {
+          //  scoreTotal = scoreTotal + 1;
+      //  }
+
     }
     public void submitButton5(View view){
         //Checking the correct answer is marked for question #5. If so, add 1 to score total.

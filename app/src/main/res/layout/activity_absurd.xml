@@ -93,7 +93,9 @@
                 android:id="@+id/question3_answer"
                 style="@style/editText"
                 android:hint="@string/editTextHint"
+                android:inputType="text"
                 android:onClick="submitButton3" />
+
         </LinearLayout>
 
         <View style="@style/VerticalSeperator" />
@@ -111,8 +113,8 @@
             <CheckBox
                 android:id="@+id/question4_comfortable_pants"
                 style="@style/checkBox"
-                android:text="@string/Question4FirstCheckbox"
-                android:onClick="submitButton4"/>
+                android:onClick="submitButton4"
+                android:text="@string/Question4FirstCheckbox" />
 
             <CheckBox
                 android:id="@+id/question4_uncomfortable_pants"

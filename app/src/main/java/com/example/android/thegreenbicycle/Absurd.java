@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -46,14 +47,13 @@ public class Absurd extends AppCompatActivity {
             scoreTotal = scoreTotal + 1;
     }
     }
-   public void submitButton3(View view){
-
-       editTextQuestion3 = findViewById(R.id.question3_answer);
-       String theLetterE = editTextQuestion3.getText().toString();
-       if (theLetterE.equalsIgnoreCase(getString(R.string.theLetterE))) {
-           scoreTotal = scoreTotal + 1;
-       }
-
+    public void submitButton3(View view){
+        EditText editTextQuestion3 = findViewById(R.id.question3_answer);
+        editTextQuestion3.setText(String.valueOf("e"));
+        String theLetterE = editTextQuestion3.getText().toString();
+        if (theLetterE.equalsIgnoreCase(getString(R.string.theLetterE))){
+            scoreTotal = scoreTotal + 1;
+        }
 
         //Checking the correct answer is marked for question #3. If so, add 1 to score total.
         //EditText editTextQuestion3 = findViewById(R.id.question3_answer);

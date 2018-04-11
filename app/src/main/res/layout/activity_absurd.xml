@@ -24,12 +24,12 @@
                 style="@style/radioGroup">
 
                 <RadioButton
-                    android:id="@+id/question1_true"
+                    android:id="@+id/questionOneTrue"
                     style="@style/radioButton"
                     android:text="@string/trueAnswer" />
 
                 <RadioButton
-                    android:id="@+id/question1_false"
+                    android:id="@+id/questionOneFalse"
                     style="@style/radioButton"
                     android:onClick="submitButton1"
                     android:text="@string/falseAnswer" />
@@ -54,23 +54,23 @@
                 style="@style/radioGroup">
 
                 <RadioButton
-                    android:id="@+id/question2_crawfish"
+                    android:id="@+id/questionTwoCrawfish"
                     style="@style/radioButton"
                     android:text="@string/Question2FirstRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_rhinoceroses"
+                    android:id="@+id/questionTwoRhinoceroses"
                     style="@style/radioButton"
                     android:onClick="submitButton2"
                     android:text="@string/Question2SecondRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_wolves"
+                    android:id="@+id/questionTwoWolves"
                     style="@style/radioButton"
                     android:text="@string/Question2ThirdRadioButton" />
 
                 <RadioButton
-                    android:id="@+id/question2_mantis_shrimp"
+                    android:id="@+id/questionTwoMantisShrimp"
                     style="@style/radioButton"
                     android:text="@string/Question2FourthRadioButton" />
             </RadioGroup>
@@ -90,7 +90,7 @@
                 android:text="@string/Question3Text" />
 
             <EditText
-                android:id="@+id/question3_answer"
+                android:id="@+id/questionThreeAnswer"
                 style="@style/editText"
                 android:hint="@string/editTextHint"
                 android:inputType="text"
@@ -111,25 +111,25 @@
                 android:text="@string/Question4Text" />
 
             <CheckBox
-                android:id="@+id/question4_comfortable_pants"
+                android:id="@+id/questionFourComfortablePants"
                 style="@style/checkBox"
                 android:onClick="submitButton4"
                 android:text="@string/Question4FirstCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_uncomfortable_pants"
+                android:id="@+id/questionFourUncomfortablePants"
                 style="@style/checkBox"
                 android:onClick="submitButton4"
                 android:text="@string/Question4SecondCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_cockroach"
+                android:id="@+id/questionFourCockroach"
                 style="@style/checkBox"
                 android:onClick="submitButton4"
                 android:text="@string/Question4ThirdCheckbox" />
 
             <CheckBox
-                android:id="@+id/question4_ungeziefer"
+                android:id="@+id/questionFourUngeziefer"
                 style="@style/checkBox"
                 android:onClick="submitButton4"
                 android:text="@string/Question4FourthCheckbox" />
@@ -152,23 +152,23 @@
                 style="@style/radioGroup">
 
                 <RadioButton
-                    android:id="@+id/question5_answer1"
+                    android:id="@+id/questionFiveAnswerOne"
                     style="@style/radioButton"
                     android:text="@string/question5Answer1" />
 
                 <RadioButton
-                    android:id="@+id/question5_answer2"
+                    android:id="@+id/questionFiveAnswerTwo"
                     style="@style/radioButton"
                     android:text="@string/Question5Answer2" />
 
                 <RadioButton
-                    android:id="@+id/question5_answer3"
+                    android:id="@+id/questionFiveAnswerThree"
                     style="@style/radioButton"
                     android:onClick="submitButton5"
                     android:text="@string/Question5Answer3" />
 
                 <RadioButton
-                    android:id="@+id/question5_answer4"
+                    android:id="@+id/questionFiveAnswerFour"
                     style="@style/radioButton"
                     android:text="@string/Question5Answer4" />
             </RadioGroup>
@@ -191,13 +191,13 @@
                 style="@style/radioGroup">
 
                 <RadioButton
-                    android:id="@+id/question6_true"
+                    android:id="@+id/questionSixTrue"
                     style="@style/radioButton"
                     android:onClick="submitButton6"
                     android:text="@string/trueAnswer" />
 
                 <RadioButton
-                    android:id="@+id/question6_false"
+                    android:id="@+id/questionSixFalse"
                     style="@style/radioButton"
                     android:text="@string/falseAnswer" />
             </RadioGroup>

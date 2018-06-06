@@ -3,7 +3,6 @@
     <!--Text for the quiz's introduction.-->
     <string name="Introduction">Welcome to the Absurdist Literature Quiz.</string>
     <!--Text for True/False questions. This is the "true" value.-->
-    <string name="trueAnswer">True</string>
     <!--Text for True/False questions. This is the "false" value.-->
     <string name="falseAnswer">False</string>
     <!--Text for numbering questions. This is the "Question 1" value.-->
@@ -31,7 +30,6 @@
     <!--Text for actual questions. This is the "Question 6" value.-->
     <string name="Question6Text">Ubu Roi is a parody of Macbeth.</string>
     <!--Text for actual questions. This is the "Question 7" value.-->
-    <string name="Question7Text">Texty-text-text-text</string>
     <!--Text for checkboxes. This is the "Question 2" value for the first checkbox.-->
     <string name="Question2FirstRadioButton">Crawfish</string>
     <!--Text for checkboxes. This is the "Question 2" value for the second checkbox.-->
@@ -63,4 +61,6 @@
     <string name="youGot">You got \u0020</string>
     <string name="scoreWording">\u0020 out of 6. It looks like you know just about as much about absurdist literature as your score would indicate!</string>
     <string name="theLetterE">e</string>
+    <string name="trueAnswer">True</string>
+    <string name="Question7Text" translatable="false">Texty-texty-text</string>
 </resources>

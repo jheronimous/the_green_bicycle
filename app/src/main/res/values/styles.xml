@@ -4,7 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-
+    <!-- This is the style for all text views that show the question numner throughout the app. -->
     <style name="questionNumberStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -15,7 +15,7 @@
         <item name="android:textColor">@color/questionNumberColor</item>
         <item name="android:fontFamily">@font/bungee_shade</item>
     </style>
-
+    <!-- This is the style for all text views tat deal with the actual text of the questions. -->
     <style name="questionText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -27,7 +27,7 @@
         <item name="android:fontFamily">@font/baumans</item>
         <item name="android:textStyle">bold</item>
     </style>
-
+    <!-- And we'll use this style for all radio buttons in the quiz. -->
     <style name="radioButton">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -36,7 +36,7 @@
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/baumans</item>
     </style>
-
+    <!-- Don't forget the checkboxes! For this here style is applied to all checkboxes in the app. -->
     <style name="checkBox">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -45,7 +45,7 @@
         <item name="android:textColor">@color/radioButtonColor</item>
         <item name="android:fontFamily">@font/baumans</item>
     </style>
-
+    <!-- This is for the linear layout containers for each question. -->
     <style name="linearLayout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -55,7 +55,7 @@
         <item name="android:paddingRight">16dp</item>
         <item name="android:paddingBottom">16dp</item>
     </style>
-
+    <!-- Used to seperate different question text views. -->
     <style name="VerticalSeperator">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
@@ -65,12 +65,12 @@
         <item name="android:layout_marginEnd">30dp</item>
         <item name="android:layout_marginRight">30dp</item>
     </style>
-
+    <!-- This is the style for any radio grouping. -->
     <style name="radioGroup">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
-
+    <!-- There's only one Beckett head and it's used to score the questions. This is th style for that head. -->
     <style name="beckettHead">
         <item name="android:layout_width">75dp</item>
         <item name="android:layout_height">75dp</item>
@@ -81,7 +81,7 @@
         <item name="android:background">@null</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
-
+    <!-- This is used for both the title and the h2 before scoring.. -->
     <style name="titleStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -91,14 +91,14 @@
         <item name="android:textSize">25sp</item>
         <item name="android:layout_marginTop">6dp</item>
     </style>
-
+    <!-- This is used for the one text entry page. -->
     <style name="editText">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:padding">6sp</item>
     </style>
-
+    <!-- This style is applied to the linear layout wrapper around all the questions and answers. -->
     <style name="topLevel">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"le vélo vert "</string>
+    <string name="Introduction">Bienvenue dans le Quiz Littérature Absurdiste.</string>
+    <string name="trueAnswer">"ainsi est la vie "</string>
+    <string name="falseAnswer">donc n\'est pas la vie</string>
+    <string name="Question1">"question 1 "</string>
+    <string name="Question2">question 2</string>
+    <string name="Question3">question 3</string>
+    <string name="Question4">question 4</string>
+    <string name="Question5">question 5</string>
+    <string name="Question6">question 6</string>
+    <string name="Question1Text">" Google a été nommé d'après le célèbre dramaturge absurde russe, Nikolai Gogol."</string>
+    <string name="Question2Text">Eugene Ionesco a écrit une pièce de théâtre dans laquelle tout le personnage principal, Bérenger, se transforme en quel animal?</string>
+    <string name="Question3Text">Le livre lipogrammatique de Georges Perec suit un groupe de protagonistes à la recherche d\'un ami disparu. Que manque-t-il?</string>
+    <string name="Question4Text">" Dans The Transformation de Kafka, le protagoniste, Gregor Samsa, se transforme en quoi?"</string>
+    <string name="Question5Text">"Kurt Vonnegut a déclaré laquelle des citations suivantes? "</string>
+    <string name="Question6Text">" Ubu Roi est une parodie de Macbeth."</string>
+    <string name="Question2FirstRadioButton">"poisson banane "</string>
+    <string name="Question2SecondRadioButton">"Rhinocéros "</string>
+    <string name="Question2ThirdRadioButton">"chiens enragés "</string>
+    <string name="Question2FourthRadioButton">paresseux</string>
+    <string name="Question4FirstCheckbox">"Une paire de pantalons plus confortable "</string>
+    <string name="Question4SecondCheckbox">"Une paire de pantalons moins confortable "</string>
+    <string name="Question4ThirdCheckbox">"Un cafard géant "</string>
+    <string name="Question4FourthCheckbox">Une vermine formidable</string>
+    <string name="editTextHint">Entrez votre réponse ici.</string>
+    <string name="question5Answer1" translatable="false">" Devrais-je me tuer ou prendre une tasse de café?"</string>
+    <string name="Question5Answer2">Déjà essayé. Jamais échoué. Peu importe. Réessayer. Échouer à nouveau. Échouer mieux.</string>
+    <string name="Question5Answer3">La vraie terreur est de se réveiller un matin et de découvrir que votre classe de lycée dirige le pays.</string>
+    <string name="Question5Answer4">C\'est l\'une des grandes joies de l\'accession à la propriété de tirer un pistolet dans sa propre chambre.</string>
+    <string name="ClickBeckett">Cliquez sur la tête de Beckett pour soumettre vos réponses.</string>
+    <string name="youGot">Vous avez</string>
+    <string name="scoreWording">sur 6. On dirait que vous en savez autant sur la littérature absurde que votre score l\'indiquerait!</string>
+    <string name="theLetterE">e</string>
+</resources>
